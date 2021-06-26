@@ -1,7 +1,7 @@
 #coding=utf-8
 #!/usr/bin/python2
 #coding=utf-8
-#originally written by muhammad hamza
+#originally written by shahwaiz
 import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib,requests,uuid,string
 from multiprocessing.pool import ThreadPool
 try:
@@ -28,10 +28,10 @@ logo ="""
 
  ------------------------------------------
 
-   Author   : H S T (HOP)
-   Github   : https://github.com/Hamzahash
-   Youtube  : HS Officials
-   Telegram : HOP Programmers
+   Author   : My
+   Github   : https://github.com/my
+   Youtube  : My
+   Telegram : My Programmers
    This tool is free not for sale
 
  ----------------------------------------- """
@@ -73,7 +73,7 @@ def reg():
         print(" Your key: "+to)
         print("")
         raw_input(" Press enter to send key")
-        os.system("xdg-open https://wa.me/+923447490792")
+        os.system("xdg-open https://wa.me/+923453375398")
         reg()
 def reg2():
     os.system("clear")
@@ -92,7 +92,7 @@ def reg2():
     print("")
     print("")
     raw_input(" Press enter to go to whatsapp ")
-    os.system("xdg-open https://wa.me/+923447490792")
+    os.system("xdg-open https://wa.me/+923453375398")
     raw_input(" Press enter to check registration ")
     reg()
 def login():
@@ -141,7 +141,7 @@ def menu():
     print(" [2] Crack with digit pass")
     print(' [3] Profile lock trick')
     print(' [4] Instagram followers trick')
-    print(' [5] Find number detail (2018 database)')
+    print(' [5] Find number detail (2021 database)')
     print("")
     menu_option()
 def menu_option():
@@ -262,7 +262,7 @@ def crack_select():
 	print("")
 	print(47*"-")
 	print("")
-	print("\t\033[1;32mCreated by: HST (HOP) Group\033[0;97m")
+	print("\t\033[1;32mCreated by: My Group\033[0;97m")
 	print(47*"-")
 	print("")
 	def main(arg):
